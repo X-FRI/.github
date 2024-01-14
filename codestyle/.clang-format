@@ -1,18 +1,20 @@
 Language:	Cpp
-BasedOnStyle:	GNU
-AccessModifierOffset:	-1
+BasedOnStyle:	LLVM
 BinPackArguments:	false
 BinPackParameters:	false
 BraceWrapping:   
   AfterClass:	true
-  AfterControlStatement:	true
   AfterEnum:	true
   AfterFunction:	true
   AfterNamespace:	true
   AfterStruct:	true
-  AfterUnion:	true
+  AfterUnion: true
   BeforeCatch:	true
   BeforeElse:	true
+  AfterControlStatement:	true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
   IndentBraces:	true
 BreakBeforeBinaryOperators:	NonAssignment
 BreakBeforeBraces:	Custom
@@ -20,7 +22,7 @@ BreakBeforeTernaryOperators:	true
 BreakConstructorInitializersBeforeComma:	true
 AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: true
-ColumnLimit: 120
+ColumnLimit: 80
 CommentPragmas:	'^ IWYU pragma:'
 ConstructorInitializerAllOnOneLineOrOnePerLine:	false
 ConstructorInitializerIndentWidth:	2
