@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/images/logo.png">
+<img src="/images/logo.png" height="200px">
 
 # The X-Files Research Institute
 
