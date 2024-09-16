@@ -7,16 +7,16 @@ import * as JsxRuntime from "react/jsx-runtime";
 var stats = Constants.stats.map(function (stat, _index) {
       return JsxRuntime.jsxs("div", {
                   children: [
-                    JsxRuntime.jsx("h4", {
-                          children: stat.value,
-                          className: "font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[50px] leading-[43px] text-white"
-                        }),
                     JsxRuntime.jsx("p", {
                           children: stat.title,
-                          className: "font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient ml-3 uppercase"
+                          className: "font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] mr-3 text-white"
+                        }),
+                    JsxRuntime.jsx("h4", {
+                          children: stat.value,
+                          className: "font-semibold xs:text-[40px] text-[30px] xs:leading-[50px] leading-[43px] text-gradient"
                         })
                   ],
-                  className: "bg-black-gradient p-5 rounded-xl ml-10 flex-1 flex justify-start items-center flex-row m-3"
+                  className: "bg-black-gradient p-5 rounded-xl flex-1 flex justify-start items-center flex-row m-3"
                 }, stat.id);
     });
 

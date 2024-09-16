@@ -114,18 +114,18 @@ var feedback = [
 var stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+"
+    title: "组织成员",
+    value: "31 人"
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+"
+    title: "开源仓库",
+    value: "67 个"
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+"
+    title: "社区成员",
+    value: "500+ 人"
   }
 ];
 
