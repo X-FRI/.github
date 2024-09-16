@@ -4,7 +4,6 @@ import * as CTA from "./components/CTA.bs.js";
 import * as Home from "./components/Home.bs.js";
 import * as Blogs from "./components/Blogs.bs.js";
 import * as Stats from "./components/Stats.bs.js";
-import * as Client from "./components/Client.bs.js";
 import * as Footer from "./components/Footer.bs.js";
 import * as Navbar from "./components/Navbar.bs.js";
 import * as Styles from "./Styles.bs.js";
@@ -36,7 +35,6 @@ function App(props) {
                               JsxRuntime.jsx(Hostings.make, {}),
                               JsxRuntime.jsx(Blogs.make, {}),
                               JsxRuntime.jsx(Testimonials.make, {}),
-                              JsxRuntime.jsx(Client.make, {}),
                               JsxRuntime.jsx(CTA.make, {}),
                               JsxRuntime.jsx(Footer.make, {})
                             ],

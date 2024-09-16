@@ -20,7 +20,6 @@ let make = () => {
         <Hostings />
         <Blogs />
         <Testimonials />
-        <Client />
         <CTA />
         <Footer />
       </div>

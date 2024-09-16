@@ -5,10 +5,10 @@
 @module("./assets/instagram.svg") external instagram: string = "default"
 @module("./assets/linkedin.svg") external linkedin: string = "default"
 @module("./assets/twitter.svg") external twitter: string = "default"
-@module("./assets/airbnb.png") external airbnb: string = "default"
-@module("./assets/binance.png") external binance: string = "default"
-@module("./assets/coinbase.png") external coinbase: string = "default"
-@module("./assets/dropbox.png") external dropbox: string = "default"
+@module("./assets/qq.svg") external qq: string = "default"
+@module("./assets/wecom.svg") external wecom: string = "default"
+@module("./assets/matrix.svg") external matrix: string = "default"
+@module("./assets/email.svg") external email: string = "default"
 @module("./assets/Send.svg") external send: string = "default"
 @module("./assets/Shield.svg") external shield: string = "default"
 @module("./assets/Star.svg") external star: string = "default"
@@ -191,18 +191,18 @@ let socialMedia = [
 let clients = [
   {
     "id": "client-1",
-    "logo": airbnb,
-  },
-  {
-    "id": "client-2",
-    "logo": binance,
+    "logo": qq,
   },
   {
     "id": "client-3",
-    "logo": coinbase,
+    "logo": wecom,
   },
   {
     "id": "client-4",
-    "logo": dropbox,
+    "logo": email,
+  },
+  {
+    "id": "client-2",
+    "logo": matrix,
   },
 ]

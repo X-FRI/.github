@@ -1,4 +1,5 @@
 open Styles
+open Constants
 
 @react.component
 let make = () => {
@@ -10,9 +11,21 @@ let make = () => {
         {"Everything you need to accept card payments and grow your business
         anywhere on the planet."->React.string}
       </p>
-    </div>
-    <div className={`${styles["flexCenter"]} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button styles="" />
+      <section className={`${styles["flexCenter"]} my-4`}>
+        <div className={`${styles["flexCenter"]} flex-wrap w-full`}>
+          {Array.map(clients, client => {
+            <div
+              key={client["id"]}
+              className={`flex-1 ${styles["flexCenter"]} sm:min-w-[20%] min-w-[20%] mt-5`}>
+              <img
+                src={client["logo"]}
+                alt="client_logo"
+                className="sm:w-[20%] w-[50%] object-contain"
+              />
+            </div>
+          })->React.array}
+        </div>
+      </section>
     </div>
   </section>
 }
