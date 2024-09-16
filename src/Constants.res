@@ -40,20 +40,20 @@ let features = [
   {
     "id": "feature-1",
     "icon": star,
-    "title": "Rewards",
-    "content": "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    "title": "共享",
+    "content": "分享你的开源仓库，或是你认为优秀的开源仓库。与大家一起探索或参与贡献开源世界中的优秀作品。",
   },
   {
     "id": "feature-2",
     "icon": shield,
-    "title": "100% Secured",
-    "content": "We take proactive steps make sure your information and transactions are secure.",
+    "title": "文明",
+    "content": "在这里我们放下性别、种族、国家和政治立场，仅仅为了相同的热爱而前行。",
   },
   {
     "id": "feature-3",
     "icon": send,
-    "title": "Balance Transfer",
-    "content": "A balance transfer credit card can save you a lot of money in interest charges.",
+    "title": "交流",
+    "content": "与社区成员畅谈你的一切，你的生活，你抬头望向的天空，你喜欢的游戏或是任何无关乎违规内容的事物。",
   },
 ]
 

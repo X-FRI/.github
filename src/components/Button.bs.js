@@ -5,8 +5,8 @@ import * as JsxRuntime from "react/jsx-runtime";
 function Button(props) {
   return JsxRuntime.jsx("span", {
               children: JsxRuntime.jsx("button", {
-                    children: "Get Started",
-                    className: "py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none hover:opacity-80"
+                    children: "加入我们",
+                    className: "py-4 px-6 font-poppins font-medium text-[18px] text-[#f6f6f6] bg-blue-gradient rounded-[10px] outline-none hover:opacity-80"
                   }),
               className: props.styles
             });

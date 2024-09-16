@@ -5,7 +5,7 @@ import * as Styles from "../Styles.bs.js";
 import * as Constants from "../Constants.bs.js";
 import * as JsxRuntime from "react/jsx-runtime";
 
-function Business$FeatureCard(props) {
+function Highlights$FeatureCard(props) {
   var feature = props.feature;
   var mb = props.index !== (Constants.features.length - 1 | 0) ? "mb-6" : "mb-9";
   return JsxRuntime.jsxs("div", {
@@ -37,26 +37,26 @@ function Business$FeatureCard(props) {
 }
 
 var FeatureCard = {
-  make: Business$FeatureCard
+  make: Highlights$FeatureCard
 };
 
-function Business(props) {
+function Highlights(props) {
   return JsxRuntime.jsxs("section", {
               children: [
                 JsxRuntime.jsxs("div", {
                       children: [
-                        JsxRuntime.jsxs("h2", {
+                        JsxRuntime.jsxs("h3", {
                               children: [
-                                "You do the business, ",
+                                "在与你有相同爱好的人群中，",
                                 JsxRuntime.jsx("br", {
                                       className: "sm:block hidden"
                                     }),
-                                "we'll handle the money."
+                                "进一步寻找你需要的技术栈。"
                               ],
-                              className: Styles.styles.heading2
+                              className: Styles.styles.heading3
                             }),
                         JsxRuntime.jsx("p", {
-                              children: "With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.",
+                              children: "我们不带偏见地看待各种技术，OCaml、F#、Rescript、C++、Rust、Golang、Scala、Java、Kotlin、Clojure、JavaScript、TypeScript、Python...（排名不分先后）",
                               className: Styles.styles.paragraph + " max-w-[470px] mt-5"
                             }),
                         JsxRuntime.jsx(Button.make, {
@@ -67,7 +67,7 @@ function Business(props) {
                     }),
                 JsxRuntime.jsx("div", {
                       children: Constants.features.map(function (feature, index) {
-                            return JsxRuntime.jsx(Business$FeatureCard, {
+                            return JsxRuntime.jsx(Highlights$FeatureCard, {
                                         feature: feature,
                                         index: index
                                       }, feature.id);
@@ -79,7 +79,7 @@ function Business(props) {
             });
 }
 
-var make = Business;
+var make = Highlights;
 
 export {
   FeatureCard ,

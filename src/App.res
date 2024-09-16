@@ -16,7 +16,7 @@ let make = () => {
     <div className={`bg-primary ${styles["paddingX"]} ${styles["flexStart"]}`}>
       <div className={`${styles["boxWidth"]}`}>
         <Stats />
-        <Business />
+        <Highlights />
         <Billing />
         <CardDeal />
         <Testimonials />

@@ -8,8 +8,8 @@ import * as Footer from "./components/Footer.bs.js";
 import * as Navbar from "./components/Navbar.bs.js";
 import * as Styles from "./Styles.bs.js";
 import * as Billing from "./components/Billing.bs.js";
-import * as Business from "./components/Business.bs.js";
 import * as CardDeal from "./components/CardDeal.bs.js";
+import * as Highlights from "./components/Highlights.bs.js";
 import * as Testimonials from "./components/Testimonials.bs.js";
 import LogoSvg from "./assets/logo.svg";
 import * as JsxRuntime from "react/jsx-runtime";
@@ -32,7 +32,7 @@ function App(props) {
                       children: JsxRuntime.jsxs("div", {
                             children: [
                               JsxRuntime.jsx(Stats.make, {}),
-                              JsxRuntime.jsx(Business.make, {}),
+                              JsxRuntime.jsx(Highlights.make, {}),
                               JsxRuntime.jsx(Billing.make, {}),
                               JsxRuntime.jsx(CardDeal.make, {}),
                               JsxRuntime.jsx(Testimonials.make, {}),
