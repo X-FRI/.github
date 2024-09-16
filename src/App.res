@@ -18,7 +18,7 @@ let make = () => {
         <Stats />
         <Highlights />
         <Hostings />
-        <CardDeal />
+        <Blogs />
         <Testimonials />
         <Client />
         <CTA />

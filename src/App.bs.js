@@ -2,12 +2,12 @@
 
 import * as CTA from "./components/CTA.bs.js";
 import * as Home from "./components/Home.bs.js";
+import * as Blogs from "./components/Blogs.bs.js";
 import * as Stats from "./components/Stats.bs.js";
 import * as Client from "./components/Client.bs.js";
 import * as Footer from "./components/Footer.bs.js";
 import * as Navbar from "./components/Navbar.bs.js";
 import * as Styles from "./Styles.bs.js";
-import * as CardDeal from "./components/CardDeal.bs.js";
 import * as Hostings from "./components/Hostings.bs.js";
 import * as Highlights from "./components/Highlights.bs.js";
 import * as Testimonials from "./components/Testimonials.bs.js";
@@ -34,7 +34,7 @@ function App(props) {
                               JsxRuntime.jsx(Stats.make, {}),
                               JsxRuntime.jsx(Highlights.make, {}),
                               JsxRuntime.jsx(Hostings.make, {}),
-                              JsxRuntime.jsx(CardDeal.make, {}),
+                              JsxRuntime.jsx(Blogs.make, {}),
                               JsxRuntime.jsx(Testimonials.make, {}),
                               JsxRuntime.jsx(Client.make, {}),
                               JsxRuntime.jsx(CTA.make, {}),

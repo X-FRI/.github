@@ -3,6 +3,7 @@
 import * as Styles from "../Styles.bs.js";
 import * as JsxRuntime from "react/jsx-runtime";
 import BillPng from "../assets/bill.png";
+import GiteaSvg from "../assets/gitea.svg";
 import GithubSvg from "../assets/github.svg";
 import CodebergSvg from "../assets/codeberg.svg";
 import FramagitSvg from "../assets/framagit.svg";
@@ -14,6 +15,8 @@ var framagit_logo = FramagitSvg;
 var github_logo = GithubSvg;
 
 var codeberg_logo = CodebergSvg;
+
+var gitea_logo = GiteaSvg;
 
 function Hostings(props) {
   return JsxRuntime.jsxs("section", {
@@ -66,9 +69,14 @@ function Hostings(props) {
                                       className: "w-[144.17px] h-[43.08px] object-contain cursor-pointer",
                                       alt: "codeberg",
                                       src: codeberg_logo
+                                    }),
+                                JsxRuntime.jsx("img", {
+                                      className: "w-[144.17px] h-[43.08px] object-contain cursor-pointer",
+                                      alt: "gitea",
+                                      src: gitea_logo
                                     })
                               ],
-                              className: "flex flex-row flex-wrap sm:mt-10 mt-6 py-[6px] px-4 bg-black-gradient rounded-[10px] "
+                              className: "flex sm:mt-10 mt-6 py-[6px] px-4 bg-black-gradient rounded-[10px] "
                             })
                       ],
                       className: Styles.layout.sectionInfo
@@ -86,6 +94,7 @@ export {
   framagit_logo ,
   github_logo ,
   codeberg_logo ,
+  gitea_logo ,
   make ,
 }
 /* bill_image Not a pure module */

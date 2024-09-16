@@ -4,6 +4,7 @@ open Styles
 @module("../assets/framagit.svg") external framagit_logo: string = "default"
 @module("../assets/github.svg") external github_logo: string = "default"
 @module("../assets/codeberg.svg") external codeberg_logo: string = "default"
+@module("../assets/gitea.svg") external gitea_logo: string = "default"
 
 @react.component
 let make = () => {
@@ -27,7 +28,7 @@ let make = () => {
         {"这个世界上存在众多不同的版本控制系统（VCS）和代码托管平台（Github，GitLab等）。我们支持众多不同的平台，您可以自由选择它们之中最适合的。"->React.string}
       </p>
       <div
-        className="flex flex-row flex-wrap sm:mt-10 mt-6 py-[6px] px-4 bg-black-gradient rounded-[10px] ">
+        className="flex sm:mt-10 mt-6 py-[6px] px-4 bg-black-gradient rounded-[10px] ">
         <img
           src=framagit_logo
           alt="framagit"
@@ -41,6 +42,11 @@ let make = () => {
         <img
           src=codeberg_logo
           alt="codeberg"
+          className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
+        />
+        <img
+          src=gitea_logo
+          alt="gitea"
           className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
         />
       </div>

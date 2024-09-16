@@ -7,24 +7,28 @@ import CardPng from "../assets/card.png";
 
 var card_image = CardPng;
 
-function CardDeal(props) {
+function Blogs(props) {
   return JsxRuntime.jsxs("section", {
               children: [
                 JsxRuntime.jsxs("div", {
                       children: [
-                        JsxRuntime.jsxs("h2", {
+                        JsxRuntime.jsxs("h3", {
                               children: [
-                                "Find a better card deal",
+                                "将你热爱的事物传递下去，",
                                 JsxRuntime.jsx("br", {
                                       className: "sm:block hidden"
                                     }),
-                                "in few easy steps."
+                                "或传递给未来的自己。"
                               ],
-                              className: Styles.styles.heading2
+                              className: Styles.styles.heading3
                             }),
                         JsxRuntime.jsx("p", {
-                              children: "Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis\n        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.",
-                              className: Styles.styles.paragraph + " max-w-[470px] mt-5"
+                              children: "一个技术博客可以帮助许多人学习和成长，就像你个人的成长一样。",
+                              className: Styles.styles.paragraph + " mt-5"
+                            }),
+                        JsxRuntime.jsx("p", {
+                              children: "毕竟，当我们尝试学习新东西时，也会去寻找博客。",
+                              className: Styles.styles.paragraph + " mt-5"
                             }),
                         JsxRuntime.jsx(Button.make, {
                               styles: "mt-10"
@@ -45,7 +49,7 @@ function CardDeal(props) {
             });
 }
 
-var make = CardDeal;
+var make = Blogs;
 
 export {
   card_image ,
