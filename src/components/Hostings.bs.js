@@ -3,16 +3,19 @@
 import * as Styles from "../Styles.bs.js";
 import * as JsxRuntime from "react/jsx-runtime";
 import BillPng from "../assets/bill.png";
-import AppleSvg from "../assets/apple.svg";
-import GoogleSvg from "../assets/google.svg";
+import GithubSvg from "../assets/github.svg";
+import CodebergSvg from "../assets/codeberg.svg";
+import FramagitSvg from "../assets/framagit.svg";
 
 var bill_image = BillPng;
 
-var apple_logo = AppleSvg;
+var framagit_logo = FramagitSvg;
 
-var google_logo = GoogleSvg;
+var github_logo = GithubSvg;
 
-function Billing(props) {
+var codeberg_logo = CodebergSvg;
+
+function Hostings(props) {
   return JsxRuntime.jsxs("section", {
               children: [
                 JsxRuntime.jsxs("div", {
@@ -35,32 +38,37 @@ function Billing(props) {
                       children: [
                         JsxRuntime.jsxs("h2", {
                               children: [
-                                "Easily control your",
+                                "在你喜欢的代码托管平台中",
                                 JsxRuntime.jsx("br", {
                                       className: "sm:block hidden"
                                     }),
-                                "billing & invoicing"
+                                "轻松地管理你的仓库"
                               ],
                               className: Styles.styles.heading2
                             }),
                         JsxRuntime.jsx("p", {
-                              children: "Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio\n        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea\n        placerat.",
+                              children: "这个世界上存在众多不同的版本控制系统（VCS）和代码托管平台（Github，GitLab等）。我们支持众多不同的平台，您可以自由选择它们之中最适合的。",
                               className: Styles.styles.paragraph + " max-w-[470px] mt-5"
                             }),
                         JsxRuntime.jsxs("div", {
                               children: [
                                 JsxRuntime.jsx("img", {
+                                      className: "w-[144.17px] h-[43.08px] object-contain cursor-pointer",
+                                      alt: "framagit",
+                                      src: framagit_logo
+                                    }),
+                                JsxRuntime.jsx("img", {
                                       className: "w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer",
-                                      alt: "google_play",
-                                      src: apple_logo
+                                      alt: "github",
+                                      src: github_logo
                                     }),
                                 JsxRuntime.jsx("img", {
                                       className: "w-[144.17px] h-[43.08px] object-contain cursor-pointer",
-                                      alt: "google_play",
-                                      src: google_logo
+                                      alt: "codeberg",
+                                      src: codeberg_logo
                                     })
                               ],
-                              className: "flex flex-row flex-wrap sm:mt-10 mt-6"
+                              className: "flex flex-row flex-wrap sm:mt-10 mt-6 py-[6px] px-4 bg-black-gradient rounded-[10px] "
                             })
                       ],
                       className: Styles.layout.sectionInfo
@@ -71,12 +79,13 @@ function Billing(props) {
             });
 }
 
-var make = Billing;
+var make = Hostings;
 
 export {
   bill_image ,
-  apple_logo ,
-  google_logo ,
+  framagit_logo ,
+  github_logo ,
+  codeberg_logo ,
   make ,
 }
 /* bill_image Not a pure module */

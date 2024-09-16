@@ -17,7 +17,7 @@ let make = () => {
       <div className={`${styles["boxWidth"]}`}>
         <Stats />
         <Highlights />
-        <Billing />
+        <Hostings />
         <CardDeal />
         <Testimonials />
         <Client />

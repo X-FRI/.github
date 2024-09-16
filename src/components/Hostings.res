@@ -1,8 +1,9 @@
 open Styles
 
 @module("../assets/bill.png") external bill_image: string = "default"
-@module("../assets/apple.svg") external apple_logo: string = "default"
-@module("../assets/google.svg") external google_logo: string = "default"
+@module("../assets/framagit.svg") external framagit_logo: string = "default"
+@module("../assets/github.svg") external github_logo: string = "default"
+@module("../assets/codeberg.svg") external codeberg_logo: string = "default"
 
 @react.component
 let make = () => {
@@ -18,24 +19,28 @@ let make = () => {
     </div>
     <div className={`${layout["sectionInfo"]}`}>
       <h2 className={`${styles["heading2"]}`}>
-        {"Easily control your"->React.string}
+        {"在你喜欢的代码托管平台中"->React.string}
         <br className="sm:block hidden" />
-        {"billing & invoicing"->React.string}
+        {"轻松地管理你的仓库"->React.string}
       </h2>
       <p className={`${styles["paragraph"]} max-w-[470px] mt-5`}>
-        {"Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat."->React.string}
+        {"这个世界上存在众多不同的版本控制系统（VCS）和代码托管平台（Github，GitLab等）。我们支持众多不同的平台，您可以自由选择它们之中最适合的。"->React.string}
       </p>
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+      <div
+        className="flex flex-row flex-wrap sm:mt-10 mt-6 py-[6px] px-4 bg-black-gradient rounded-[10px] ">
         <img
-          src=apple_logo
-          alt="google_play"
+          src=framagit_logo
+          alt="framagit"
+          className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
+        />
+        <img
+          src=github_logo
+          alt="github"
           className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer"
         />
         <img
-          src=google_logo
-          alt="google_play"
+          src=codeberg_logo
+          alt="codeberg"
           className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
         />
       </div>
