@@ -24,12 +24,12 @@ function Testimonials(props) {
                                     }),
                                 "saying about us"
                               ],
-                              className: "" + Styles.styles.heading2 + ""
+                              className: Styles.styles.heading2
                             }),
                         JsxRuntime.jsx("div", {
                               children: JsxRuntime.jsx("p", {
                                     children: "Everything you need to accept card payments and grow your business\n          anywhere on the planet.",
-                                    className: "" + Styles.styles.paragraph + " text-left max-w-[450px]"
+                                    className: Styles.styles.paragraph + " text-left max-w-[450px]"
                                   }),
                               className: "w-full md:mt-0 mt-6"
                             })
@@ -45,7 +45,7 @@ function Testimonials(props) {
                       className: "flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]"
                     })
               ],
-              className: "" + Styles.styles.paddingY + " " + Styles.styles.flexCenter + " flex-col relative ",
+              className: Styles.styles.paddingY + " " + Styles.styles.flexCenter + " flex-col relative ",
               id: "clients"
             });
 }

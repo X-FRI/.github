@@ -11,11 +11,11 @@ function CTA(props) {
                       children: [
                         JsxRuntime.jsx("h2", {
                               children: "Let's try our service now!",
-                              className: "" + Styles.styles.heading2 + ""
+                              className: Styles.styles.heading2
                             }),
                         JsxRuntime.jsx("p", {
                               children: "Everything you need to accept card payments and grow your business\n        anywhere on the planet.",
-                              className: "" + Styles.styles.paragraph + " max-w-[470px] mt-5"
+                              className: Styles.styles.paragraph + " max-w-[470px] mt-5"
                             })
                       ],
                       className: "flex-1 flex flex-col"
@@ -24,10 +24,10 @@ function CTA(props) {
                       children: JsxRuntime.jsx(Button.make, {
                             styles: ""
                           }),
-                      className: "" + Styles.styles.flexCenter + " sm:ml-10 ml-0 sm:mt-0 mt-10"
+                      className: Styles.styles.flexCenter + " sm:ml-10 ml-0 sm:mt-0 mt-10"
                     })
               ],
-              className: "" + Styles.styles.flexCenter + " " + Styles.styles.marginY + " " + Styles.styles.padding + " sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow"
+              className: Styles.styles.flexCenter + " " + Styles.styles.marginY + " " + Styles.styles.padding + " sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow"
             });
 }
 

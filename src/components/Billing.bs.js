@@ -29,7 +29,7 @@ function Billing(props) {
                               className: "absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient"
                             })
                       ],
-                      className: "" + Styles.layout.sectionImgReverse + ""
+                      className: Styles.layout.sectionImgReverse
                     }),
                 JsxRuntime.jsxs("div", {
                       children: [
@@ -41,11 +41,11 @@ function Billing(props) {
                                     }),
                                 "billing & invoicing"
                               ],
-                              className: "" + Styles.styles.heading2 + ""
+                              className: Styles.styles.heading2
                             }),
                         JsxRuntime.jsx("p", {
                               children: "Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio\n        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea\n        placerat.",
-                              className: "" + Styles.styles.paragraph + " max-w-[470px] mt-5"
+                              className: Styles.styles.paragraph + " max-w-[470px] mt-5"
                             }),
                         JsxRuntime.jsxs("div", {
                               children: [
@@ -63,10 +63,10 @@ function Billing(props) {
                               className: "flex flex-row flex-wrap sm:mt-10 mt-6"
                             })
                       ],
-                      className: "" + Styles.layout.sectionInfo + ""
+                      className: Styles.layout.sectionInfo
                     })
               ],
-              className: "" + Styles.layout.sectionReverse + "",
+              className: Styles.layout.sectionReverse,
               id: "product"
             });
 }

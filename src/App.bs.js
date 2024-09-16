@@ -19,14 +19,14 @@ function App(props) {
               children: [
                 JsxRuntime.jsx("div", {
                       children: JsxRuntime.jsx(Navbar.make, {}),
-                      className: "" + Styles.styles.paddingX + " " + Styles.styles.flexCenter + ""
+                      className: Styles.styles.paddingX + " " + Styles.styles.flexCenter
                     }),
                 JsxRuntime.jsx("div", {
                       children: JsxRuntime.jsx("div", {
                             children: JsxRuntime.jsx(Hero.make, {}),
-                            className: "" + Styles.styles.boxWidth + ""
+                            className: Styles.styles.boxWidth
                           }),
-                      className: "bg-primary " + Styles.styles.flexStart + ""
+                      className: "bg-primary " + Styles.styles.flexStart
                     }),
                 JsxRuntime.jsx("div", {
                       children: JsxRuntime.jsxs("div", {
@@ -40,9 +40,9 @@ function App(props) {
                               JsxRuntime.jsx(CTA.make, {}),
                               JsxRuntime.jsx(Footer.make, {})
                             ],
-                            className: "" + Styles.styles.boxWidth + ""
+                            className: Styles.styles.boxWidth
                           }),
-                      className: "bg-primary " + Styles.styles.paddingX + " " + Styles.styles.flexStart + ""
+                      className: "bg-primary " + Styles.styles.paddingX + " " + Styles.styles.flexStart
                     })
               ],
               className: "bg-primary w-full overflow-hidden"

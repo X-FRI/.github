@@ -23,7 +23,7 @@ var stats = Constants.stats.map(function (stat, _index) {
 function Stats(props) {
   return JsxRuntime.jsx("section", {
               children: stats,
-              className: "" + Styles.styles.flexCenter + " flex-row flex-wrap sm:mb-20 mb-6"
+              className: Styles.styles.flexCenter + " flex-row flex-wrap sm:mb-20 mb-6"
             });
 }
 

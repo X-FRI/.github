@@ -35,7 +35,7 @@ function Footer(props) {
                                     }),
                                 JsxRuntime.jsx("p", {
                                       children: "A new way to make the payments easy, reliable and secure.",
-                                      className: "" + Styles.styles.paragraph + " mt-4 max-w-[312px]"
+                                      className: Styles.styles.paragraph + " mt-4 max-w-[312px]"
                                     })
                               ],
                               className: "flex-[1] flex flex-col justify-start mr-10"
@@ -52,7 +52,7 @@ function Footer(props) {
                                                         children: footerlink.links.map(function (link, index) {
                                                               return JsxRuntime.jsx("li", {
                                                                           children: link.name,
-                                                                          className: "" + link_mb(footerlink, index) + " font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer"
+                                                                          className: link_mb(footerlink, index) + " font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer"
                                                                         }, link.name);
                                                             }),
                                                         className: "list-none mt-4"
@@ -64,7 +64,7 @@ function Footer(props) {
                               className: "flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10"
                             })
                       ],
-                      className: "" + Styles.styles.flexStart + " md:flex-row flex-col mb-8 w-full"
+                      className: Styles.styles.flexStart + " md:flex-row flex-col mb-8 w-full"
                     }),
                 JsxRuntime.jsxs("div", {
                       children: [
@@ -75,7 +75,7 @@ function Footer(props) {
                         JsxRuntime.jsx("div", {
                               children: Constants.socialMedia.map(function (social, index) {
                                     return JsxRuntime.jsx("img", {
-                                                className: "" + social_mb(index) + " w-[21px] h-[21px] object-contain cursor-pointer",
+                                                className: social_mb(index) + " w-[21px] h-[21px] object-contain cursor-pointer",
                                                 alt: social.id,
                                                 src: social.icon,
                                                 onClick: (function (_event) {
@@ -89,7 +89,7 @@ function Footer(props) {
                       className: "w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]"
                     })
               ],
-              className: "" + Styles.styles.flexCenter + " " + Styles.styles.paddingY + " flex-col"
+              className: Styles.styles.flexCenter + " " + Styles.styles.paddingY + " flex-col"
             });
 }
 

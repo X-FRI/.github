@@ -38,7 +38,7 @@ let make = () => {
         src={`${mobile_menu_icon}`}
         className="w-[28px] h-[28px] object-contain"
         alt="menu"
-        onClick={event => setToggle(toggle => !toggle)}
+        onClick={_ => setToggle(toggle => !toggle)}
       />
       <div
         className={`${mobile_menu_toggle} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>

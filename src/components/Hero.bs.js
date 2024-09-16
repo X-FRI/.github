@@ -35,7 +35,7 @@ function Hero(props) {
                                             }),
                                         " Account "
                                       ],
-                                      className: "" + Styles.styles.paragraph + " ml-2"
+                                      className: Styles.styles.paragraph + " ml-2"
                                     })
                               ],
                               className: "flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2"
@@ -68,7 +68,7 @@ function Hero(props) {
                             }),
                         JsxRuntime.jsx("p", {
                               children: "Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.",
-                              className: "" + Styles.styles.paragraph + " max-w-[470px] mt-5"
+                              className: Styles.styles.paragraph + " max-w-[470px] mt-5"
                             })
                       ],
                       className: "flex-1 " + Styles.styles.flexStart + " flex-col xl:px-0 sm:px-16 px-6"
@@ -94,10 +94,10 @@ function Hero(props) {
                     }),
                 JsxRuntime.jsx("div", {
                       children: JsxRuntime.jsx(GetStarted.make, {}),
-                      className: "ss:hidden " + Styles.styles.flexCenter + ""
+                      className: "ss:hidden " + Styles.styles.flexCenter
                     })
               ],
-              className: "flex md:flex-row flex-col " + Styles.styles.paddingY + "",
+              className: "flex md:flex-row flex-col " + Styles.styles.paddingY,
               id: "home"
             });
 }

@@ -17,9 +17,9 @@ function Client(props) {
                                       className: "flex-1 " + Styles.styles.flexCenter + " sm:min-w-[192px] min-w-[120px] m-5"
                                     }, client.id);
                         }),
-                    className: "" + Styles.styles.flexCenter + " flex-wrap w-full"
+                    className: Styles.styles.flexCenter + " flex-wrap w-full"
                   }),
-              className: "" + Styles.styles.flexCenter + " my-4"
+              className: Styles.styles.flexCenter + " my-4"
             });
 }
 

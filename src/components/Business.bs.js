@@ -16,7 +16,7 @@ function Business$FeatureCard(props) {
                             alt: "icon",
                             src: feature.icon
                           }),
-                      className: "" + Styles.styles.flexCenter + " w-[64px] h-[64px] rounded-full bg-dimBlue"
+                      className: Styles.styles.flexCenter + " w-[64px] h-[64px] rounded-full bg-dimBlue"
                     }),
                 JsxRuntime.jsxs("div", {
                       children: [
@@ -32,7 +32,7 @@ function Business$FeatureCard(props) {
                       className: "flex-1 flex flex-col ml-3"
                     })
               ],
-              className: "" + mb + " flex flex-row p-6 rounded-[20px] feature-card"
+              className: mb + " flex flex-row p-6 rounded-[20px] feature-card"
             });
 }
 
@@ -53,17 +53,17 @@ function Business(props) {
                                     }),
                                 "we'll handle the money."
                               ],
-                              className: "" + Styles.styles.heading2 + ""
+                              className: Styles.styles.heading2
                             }),
                         JsxRuntime.jsx("p", {
                               children: "With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.",
-                              className: "" + Styles.styles.paragraph + " max-w-[470px] mt-5"
+                              className: Styles.styles.paragraph + " max-w-[470px] mt-5"
                             }),
                         JsxRuntime.jsx(Button.make, {
                               styles: "mt-10"
                             })
                       ],
-                      className: "" + Styles.layout.sectionInfo + ""
+                      className: Styles.layout.sectionInfo
                     }),
                 JsxRuntime.jsx("div", {
                       children: Constants.features.map(function (feature, index) {
@@ -72,10 +72,10 @@ function Business(props) {
                                         index: index
                                       }, feature.id);
                           }),
-                      className: "" + Styles.layout.sectionImg + " flex-col"
+                      className: Styles.layout.sectionImg + " flex-col"
                     })
               ],
-              className: "" + Styles.layout.section + ""
+              className: Styles.layout.section
             });
 }
 

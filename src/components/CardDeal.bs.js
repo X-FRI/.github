@@ -20,17 +20,17 @@ function CardDeal(props) {
                                     }),
                                 "in few easy steps."
                               ],
-                              className: "" + Styles.styles.heading2 + ""
+                              className: Styles.styles.heading2
                             }),
                         JsxRuntime.jsx("p", {
                               children: "Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis\n        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.",
-                              className: "" + Styles.styles.paragraph + " max-w-[470px] mt-5"
+                              className: Styles.styles.paragraph + " max-w-[470px] mt-5"
                             }),
                         JsxRuntime.jsx(Button.make, {
                               styles: "mt-10"
                             })
                       ],
-                      className: "" + Styles.layout.sectionInfo + ""
+                      className: Styles.layout.sectionInfo
                     }),
                 JsxRuntime.jsx("div", {
                       children: JsxRuntime.jsx("img", {
@@ -38,10 +38,10 @@ function CardDeal(props) {
                             alt: "billing",
                             src: card_image
                           }),
-                      className: "" + Styles.layout.sectionImg + ""
+                      className: Styles.layout.sectionImg
                     })
               ],
-              className: "" + Styles.layout.section + ""
+              className: Styles.layout.section
             });
 }
 

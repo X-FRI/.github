@@ -25,7 +25,7 @@ function GetStarted(props) {
                                     src: arrow_up_icon
                                   })
                             ],
-                            className: "" + Styles.styles.flexStart + " flex-row"
+                            className: Styles.styles.flexStart + " flex-row"
                           }),
                       JsxRuntime.jsx("p", {
                             children: JsxRuntime.jsx("span", {
@@ -35,9 +35,9 @@ function GetStarted(props) {
                             className: "font-poppins font-medium text-[18px] leading-[23.4px]"
                           })
                     ],
-                    className: "" + Styles.styles.flexCenter + " flex-col bg-primary w-[100%] h-[100%] rounded-full"
+                    className: Styles.styles.flexCenter + " flex-col bg-primary w-[100%] h-[100%] rounded-full"
                   }),
-              className: "" + Styles.styles.flexCenter + " animate-bounce  w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer"
+              className: Styles.styles.flexCenter + " animate-bounce  w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer"
             });
 }
 

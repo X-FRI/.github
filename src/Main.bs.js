@@ -10,7 +10,7 @@ import * as JsxRuntime from "react/jsx-runtime";
 import './index.css'
 ;
 
-Client.createRoot(Core__Option.getExn(Caml_option.nullable_to_opt(document.querySelector("#root")))).render(JsxRuntime.jsx(React.StrictMode, {
+Client.createRoot(Core__Option.getExn(Caml_option.nullable_to_opt(document.querySelector("#root")), undefined)).render(JsxRuntime.jsx(React.StrictMode, {
           children: JsxRuntime.jsx(App.make, {})
         }));
 
