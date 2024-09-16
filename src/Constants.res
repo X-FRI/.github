@@ -1,6 +1,6 @@
-@module("./assets/people01.png") external people01: string = "default"
-@module("./assets/people02.png") external people02: string = "default"
-@module("./assets/people03.png") external people03: string = "default"
+@module("./assets/people01.jpg") external people01: string = "default"
+@module("./assets/people02.jpg") external people02: string = "default"
+@module("./assets/people03.jpg") external people03: string = "default"
 @module("./assets/facebook.svg") external facebook: string = "default"
 @module("./assets/instagram.svg") external instagram: string = "default"
 @module("./assets/linkedin.svg") external linkedin: string = "default"
@@ -32,7 +32,7 @@ let navLinks = [
   {
     "id": "社区",
     "title": "社区",
-    "link": "#community"
+    "link": "#community",
   },
 ]
 
@@ -60,23 +60,23 @@ let features = [
 let feedback = [
   {
     "id": "feedback-1",
-    "content": "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    "name": "Herman Jensen",
-    "title": "Founder & Leader",
+    "content": "人只不过是一根苇草，是自然界最脆弱的东西，但却是一根能思想的苇草，这个社区让我们的思想交织在了一起。",
+    "name": "藤椒鱼",
+    "title": "社区成员 & Web3工程师",
     "img": people01,
   },
   {
     "id": "feedback-2",
-    "content": "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    "name": "Steve Mark",
-    "title": "Founder & Leader",
+    "content": "开源项目如同一片广袤的森林，这个社区就像肥沃的土地，每一位贡献者都是其中的一棵树，使我们共同编织出知识与创新的绿荫。",
+    "name": "执笔人",
+    "title": "管理员 & 信息安全工程师",
     "img": people02,
   },
   {
     "id": "feedback-3",
-    "content": "It is usually people in the money business, finance, and international trade that are really rich.",
-    "name": "Kenn Gallagher",
-    "title": "Founder & Leader",
+    "content": "我在这个社区学到了很多新知识，大家分享的资源和经验对我的项目帮助很大，参与开源项目让我感受到了集体智慧的力量，大家一起解决问题的过程非常有成就感。",
+    "name": "Pu哥",
+    "title": "社区成员 & 中学生",
     "img": people03,
   },
 ]

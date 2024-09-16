@@ -14,14 +14,14 @@ let make = () => {
     <div
       className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
       <h2 className={`${styles["heading2"]}`}>
-        {"What People are"->React.string}
-        <br className="sm:block hidden" />
-        {"saying about us"->React.string}
+        {"人们对X档案研究所的看法"->React.string}
       </h2>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles["paragraph"]} text-left max-w-[450px]`}>
-          {"Everything you need to accept card payments and grow your business
-          anywhere on the planet."->React.string}
+          {"任何事物在人们不同的视角下都会有不同的评价。"->React.string}
+        </p>
+        <p className={`${styles["paragraph"]} text-left max-w-[450px]`}>
+          {"毕竟，思想——人的全部尊严就在于思想。"->React.string}
         </p>
       </div>
     </div>

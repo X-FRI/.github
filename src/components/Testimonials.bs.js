@@ -16,21 +16,21 @@ function Testimonials(props) {
                     }),
                 JsxRuntime.jsxs("div", {
                       children: [
-                        JsxRuntime.jsxs("h2", {
-                              children: [
-                                "What People are",
-                                JsxRuntime.jsx("br", {
-                                      className: "sm:block hidden"
-                                    }),
-                                "saying about us"
-                              ],
+                        JsxRuntime.jsx("h2", {
+                              children: "人们对X档案研究所的看法",
                               className: Styles.styles.heading2
                             }),
-                        JsxRuntime.jsx("div", {
-                              children: JsxRuntime.jsx("p", {
-                                    children: "Everything you need to accept card payments and grow your business\n          anywhere on the planet.",
-                                    className: Styles.styles.paragraph + " text-left max-w-[450px]"
-                                  }),
+                        JsxRuntime.jsxs("div", {
+                              children: [
+                                JsxRuntime.jsx("p", {
+                                      children: "任何事物在人们不同的视角下都会有不同的评价。",
+                                      className: Styles.styles.paragraph + " text-left max-w-[450px]"
+                                    }),
+                                JsxRuntime.jsx("p", {
+                                      children: "毕竟，思想——人的全部尊严就在于思想。",
+                                      className: Styles.styles.paragraph + " text-left max-w-[450px]"
+                                    })
+                              ],
                               className: "w-full md:mt-0 mt-6"
                             })
                       ],

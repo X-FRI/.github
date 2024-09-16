@@ -10,16 +10,16 @@ import TwitterSvg from "./assets/twitter.svg";
 import CoinbasePng from "./assets/coinbase.png";
 import FacebookSvg from "./assets/facebook.svg";
 import LinkedinSvg from "./assets/linkedin.svg";
-import People01Png from "./assets/people01.png";
-import People02Png from "./assets/people02.png";
-import People03Png from "./assets/people03.png";
+import People01Jpg from "./assets/people01.jpg";
+import People02Jpg from "./assets/people02.jpg";
+import People03Jpg from "./assets/people03.jpg";
 import InstagramSvg from "./assets/instagram.svg";
 
-var people01 = People01Png;
+var people01 = People01Jpg;
 
-var people02 = People02Png;
+var people02 = People02Jpg;
 
-var people03 = People03Png;
+var people03 = People03Jpg;
 
 var facebook = FacebookSvg;
 
@@ -90,23 +90,23 @@ var features = [
 var feedback = [
   {
     id: "feedback-1",
-    content: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+    content: "人只不过是一根苇草，是自然界最脆弱的东西，但却是一根能思想的苇草，这个社区让我们的思想交织在了一起。",
+    name: "藤椒鱼",
+    title: "社区成员 & Web3工程师",
     img: people01
   },
   {
     id: "feedback-2",
-    content: "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+    content: "开源项目如同一片广袤的森林，这个社区就像肥沃的土地，每一位贡献者都是其中的一棵树，使我们共同编织出知识与创新的绿荫。",
+    name: "执笔人",
+    title: "管理员 & 信息安全工程师",
     img: people02
   },
   {
     id: "feedback-3",
-    content: "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    content: "我在这个社区学到了很多新知识，大家分享的资源和经验对我的项目帮助很大，参与开源项目让我感受到了集体智慧的力量，大家一起解决问题的过程非常有成就感。",
+    name: "Pu哥",
+    title: "社区成员 & 中学生",
     img: people03
   }
 ];
