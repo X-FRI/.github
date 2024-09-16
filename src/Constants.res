@@ -1,10 +1,8 @@
 @module("./assets/people01.jpg") external people01: string = "default"
 @module("./assets/people02.jpg") external people02: string = "default"
 @module("./assets/people03.jpg") external people03: string = "default"
-@module("./assets/facebook.svg") external facebook: string = "default"
-@module("./assets/instagram.svg") external instagram: string = "default"
-@module("./assets/linkedin.svg") external linkedin: string = "default"
-@module("./assets/twitter.svg") external twitter: string = "default"
+@module("./assets/zhihu.svg") external zhihu: string = "default"
+@module("./assets/bilibili.svg") external bilibili: string = "default"
 @module("./assets/qq.svg") external qq: string = "default"
 @module("./assets/wecom.svg") external wecom: string = "default"
 @module("./assets/matrix.svg") external matrix: string = "default"
@@ -12,6 +10,7 @@
 @module("./assets/Send.svg") external send: string = "default"
 @module("./assets/Shield.svg") external shield: string = "default"
 @module("./assets/Star.svg") external star: string = "default"
+@module("/logo.png") external logo: string = "default"
 
 let navLinks = [
   {
@@ -168,24 +167,14 @@ let footerLinks = [
 let socialMedia = [
   {
     "id": "social-media-1",
-    "icon": instagram,
-    "link": "https://www.instagram.com/",
+    "icon": bilibili,
+    "link": "https://space.bilibili.com/649581239",
   },
   {
     "id": "social-media-2",
-    "icon": facebook,
-    "link": "https://www.facebook.com/",
-  },
-  {
-    "id": "social-media-3",
-    "icon": twitter,
-    "link": "https://www.twitter.com/",
-  },
-  {
-    "id": "social-media-4",
-    "icon": linkedin,
-    "link": "https://www.linkedin.com/",
-  },
+    "icon": zhihu,
+    "link": "https://www.zhihu.com/people/han-lao-shi-4-30",
+  }
 ]
 
 let clients = [

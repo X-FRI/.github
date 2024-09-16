@@ -10,7 +10,6 @@ import * as Styles from "./Styles.bs.js";
 import * as Hostings from "./components/Hostings.bs.js";
 import * as Highlights from "./components/Highlights.bs.js";
 import * as Testimonials from "./components/Testimonials.bs.js";
-import LogoSvg from "./assets/logo.svg";
 import * as JsxRuntime from "react/jsx-runtime";
 
 function App(props) {
@@ -52,4 +51,4 @@ var make = App;
 export {
   make ,
 }
-/*  Not a pure module */
+/* CTA Not a pure module */

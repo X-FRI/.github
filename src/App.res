@@ -1,5 +1,3 @@
-@module("./assets/logo.svg") external logo: string = "default"
-
 open Styles
 
 @react.component

@@ -8,13 +8,13 @@ function CTA(props) {
   return JsxRuntime.jsx("section", {
               children: JsxRuntime.jsxs("div", {
                     children: [
-                      JsxRuntime.jsx("h2", {
-                            children: "Let's try our service now!",
-                            className: Styles.styles.heading2
+                      JsxRuntime.jsx("h3", {
+                            children: "开始与X档案研究所的其他成员进行交流",
+                            className: Styles.styles.heading3
                           }),
                       JsxRuntime.jsx("p", {
-                            children: "Everything you need to accept card payments and grow your business\n        anywhere on the planet.",
-                            className: Styles.styles.paragraph + " max-w-[470px] mt-5"
+                            children: "我们使用一些IM应用进行交流，例如 QQ，企业微信，或是 Matrix。同时我们也支持使用邮件列表的方式进行交流。",
+                            className: Styles.styles.paragraph + " mt-5"
                           }),
                       JsxRuntime.jsx("section", {
                             children: JsxRuntime.jsx("div", {

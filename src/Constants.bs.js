@@ -5,15 +5,13 @@ import SendSvg from "./assets/Send.svg";
 import StarSvg from "./assets/Star.svg";
 import EmailSvg from "./assets/email.svg";
 import WecomSvg from "./assets/wecom.svg";
+import ZhihuSvg from "./assets/zhihu.svg";
 import ShieldSvg from "./assets/Shield.svg";
 import MatrixSvg from "./assets/matrix.svg";
-import TwitterSvg from "./assets/twitter.svg";
-import FacebookSvg from "./assets/facebook.svg";
-import LinkedinSvg from "./assets/linkedin.svg";
+import BilibiliSvg from "./assets/bilibili.svg";
 import People01Jpg from "./assets/people01.jpg";
 import People02Jpg from "./assets/people02.jpg";
 import People03Jpg from "./assets/people03.jpg";
-import InstagramSvg from "./assets/instagram.svg";
 
 var people01 = People01Jpg;
 
@@ -21,13 +19,9 @@ var people02 = People02Jpg;
 
 var people03 = People03Jpg;
 
-var facebook = FacebookSvg;
+var zhihu = ZhihuSvg;
 
-var instagram = InstagramSvg;
-
-var linkedin = LinkedinSvg;
-
-var twitter = TwitterSvg;
+var bilibili = BilibiliSvg;
 
 var qq = QqSvg;
 
@@ -198,23 +192,13 @@ var footerLinks = [
 var socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/"
+    icon: bilibili,
+    link: "https://space.bilibili.com/649581239"
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/"
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/"
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/"
+    icon: zhihu,
+    link: "https://www.zhihu.com/people/han-lao-shi-4-30"
   }
 ];
 
@@ -241,10 +225,8 @@ export {
   people01 ,
   people02 ,
   people03 ,
-  facebook ,
-  instagram ,
-  linkedin ,
-  twitter ,
+  zhihu ,
+  bilibili ,
   qq ,
   wecom ,
   matrix ,
