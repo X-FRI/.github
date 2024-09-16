@@ -1,89 +1,22 @@
-<div align="center">
+## Join us
+> We welcome anyone with a passion for open source and computer science to join
 
-<img src="./.github/logo.png" height="150px">
+If you need to join the organization, you only need to send an email with your github username to muqiu-han@outlook.com.
 
-# HooBank-Rescript
+### Community
+- Telegram (en): [https://t.me/xfri_cn](https://t.me/xfri_cn)
+- Matrix (en): [https://matrix.to/#/#x-fri:matrix.org](https://matrix.to/#/#x-fri:matrix.org)
+  - or Space(en & zh): [https://matrix.to/#/!rpzCLjdfFrqZAULJJV:matrix.org](https://matrix.to/#/!rpzCLjdfFrqZAULJJV:matrix.org)
+- QQ Group(zh): 780653172
 
-*Modern UI/UX website using React & Tailwind CSS written in Rescript*
+## Other
 
-![HooBank](./.github/Screenshot%202023-10-16%20at%2008-54-49%20Hoobank%20Rescript.png)
+It is recommended to create a new repo under your own account and fork it into this organization, and update it by submitting a PR from the corresponding repo in the organization to the repo with the same name under your own account.
 
-</div>
+This organization is not a team with a strict development system. You can use any coding style and language you like to develop any type of project you like.
 
-## Introduction
-<a href="https://rescript-lang.org">
+But we still provide some Github actions demo and Code format tools configuration and even development tool topics for your use or reference:
 
-<img src="./.github/rescript.png" height="20px">
-
-- Fast, Simple, Fully Typed JavaScript from the Future.
-
-</a>
-
-<a href="https://react.dev/">
-
-<img src="./.github/react-1-logo-png-transparent.png" height="22px">
-
-- The library for web and native user interfaces
-
-<a href="https://tailwindcss.com/">
-
-<img src="./.github/tailwind-css.svg" height="15px">
-
-- Rapidly build modern websites without ever leaving your HTML
-
-## Build and Run
-```
-Lifecycle scripts:
-  start
-    vite
-  test
-    vitest
-
-Commands available via "pnpm run":
-  build
-    vite build
-  clean
-    rescript clean -with-deps
-  format
-    rescript format -all
-  serve
-    vite preview
-```
-
-## DEMO
-
-### Desktop
-![](./.github/desktop-demo.png)
-
-### PAD
-![](./.github/pad-demo.png)
-
-### Mobile
-![](./.github/mobile-demo.png)
-
-## Reference
-- [Figma: HooBank](https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank)
-- [project_hookbank](https://github.com/adrianhajdin/project_hoobank)
-
-## LICENSE
-The MIT License (MIT)
-
-Copyright (c) 2022 Muqiu Han
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- [Github Actions demo](/actions)
+- [Code Style](/codestyle)
+- [The X-Files Research Institute Theme Pack](https://github.com/X-FRI/xfri-theme)
