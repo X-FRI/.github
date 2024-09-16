@@ -45,20 +45,24 @@ var star = StarSvg;
 
 var navLinks = [
   {
-    id: "home",
-    title: "Home"
+    id: "主页",
+    title: "主页",
+    link: "#"
   },
   {
-    id: "features",
-    title: "Features"
+    id: "开源",
+    title: "开源",
+    link: "#opensource"
   },
   {
-    id: "product",
-    title: "Product"
+    id: "作品",
+    title: "作品",
+    link: "#works"
   },
   {
-    id: "clients",
-    title: "Clients"
+    id: "社区",
+    title: "社区",
+    link: "#community"
   }
 ];
 

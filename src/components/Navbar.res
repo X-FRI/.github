@@ -1,4 +1,4 @@
-@module("../assets/logo.svg") external logo: string = "default"
+@module("/logo.png") external logo: string = "default"
 @module("../assets/close.svg") external close_icon: string = "default"
 @module("../assets/menu.svg") external menu_icon: string = "default"
 
@@ -18,7 +18,7 @@ let menu = mobile => {
       key={`${nav["id"]}`}
       className={`${end_menu_item_margin(
           index,
-        )} font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+        )} font-normal cursor-pointer text-[16px] text-white`}>
       <a href={`${nav["id"]}`}> {nav["title"]->React.string} </a>
     </li>
   })->React.array
@@ -31,7 +31,7 @@ let make = () => {
   let mobile_menu_toggle = toggle ? "flex" : "hidden"
 
   <nav className="w-full flex py-6 justfiy-between items-center navbar">
-    <img src=logo alt="hoobank" className="w-[124px] h-[32px]" />
+    <img src=logo alt="xfri" className="h-[32px]" />
     <ul className="list-none sm:flex hidden justify-end items-center flex-1"> {menu(false)} </ul>
     <div className="sm:hidden flex flex-1 justify-end items-center">
       <img

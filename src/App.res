@@ -10,7 +10,7 @@ let make = () => {
     </div>
     <div className={`bg-primary ${styles["flexStart"]}`}>
       <div className={`${styles["boxWidth"]}`}>
-        <Hero />
+        <Home />
       </div>
     </div>
     <div className={`bg-primary ${styles["paddingX"]} ${styles["flexStart"]}`}>

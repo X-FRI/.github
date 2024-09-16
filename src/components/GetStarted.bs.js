@@ -7,37 +7,40 @@ import ArrowUpSvg from "../assets/arrow-up.svg";
 var arrow_up_icon = ArrowUpSvg;
 
 function GetStarted(props) {
-  return JsxRuntime.jsx("div", {
-              children: JsxRuntime.jsxs("div", {
-                    children: [
-                      JsxRuntime.jsxs("div", {
-                            children: [
-                              JsxRuntime.jsx("p", {
-                                    children: JsxRuntime.jsx("span", {
-                                          children: "Get",
-                                          className: "text-gradient"
+  return JsxRuntime.jsx("a", {
+              children: JsxRuntime.jsx("div", {
+                    children: JsxRuntime.jsxs("div", {
+                          children: [
+                            JsxRuntime.jsxs("div", {
+                                  children: [
+                                    JsxRuntime.jsx("p", {
+                                          children: JsxRuntime.jsx("span", {
+                                                children: "立即",
+                                                className: "text-[#8ca7d8]"
+                                              }),
+                                          className: "font-poppins font-medium mr-2 text-[18px] leading-[23.4px]"
                                         }),
-                                    className: "font-poppins font-medium mr-2 text-[18px] leading-[23.4px]"
-                                  }),
-                              JsxRuntime.jsx("img", {
-                                    className: "w-[23px] h-[23px] object-contain",
-                                    alt: "arrow-up",
-                                    src: arrow_up_icon
-                                  })
-                            ],
-                            className: Styles.styles.flexStart + " flex-row"
-                          }),
-                      JsxRuntime.jsx("p", {
-                            children: JsxRuntime.jsx("span", {
-                                  children: "Started",
-                                  className: "text-gradient"
+                                    JsxRuntime.jsx("img", {
+                                          className: "w-[23px] h-[23px] object-contain",
+                                          alt: "arrow-up",
+                                          src: arrow_up_icon
+                                        })
+                                  ],
+                                  className: Styles.styles.flexStart + " flex-row"
                                 }),
-                            className: "font-poppins font-medium text-[18px] leading-[23.4px]"
-                          })
-                    ],
-                    className: Styles.styles.flexCenter + " flex-col bg-primary w-[100%] h-[100%] rounded-full"
+                            JsxRuntime.jsx("p", {
+                                  children: JsxRuntime.jsx("span", {
+                                        children: "加入我们",
+                                        className: "text-[#8ca7d8]"
+                                      }),
+                                  className: "font-poppins font-medium text-[18px] leading-[23.4px]"
+                                })
+                          ],
+                          className: Styles.styles.flexCenter + " flex-col bg-primary w-[100%] h-[100%] rounded-full"
+                        }),
+                    className: Styles.styles.flexCenter + " w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer"
                   }),
-              className: Styles.styles.flexCenter + " animate-bounce  w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer"
+              href: "https://github.com/x-fri"
             });
 }
 
