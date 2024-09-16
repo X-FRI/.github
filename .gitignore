@@ -2,4 +2,5 @@
 /.vscode
 /lib
 *.bs.js
-/public
+
+/dist
