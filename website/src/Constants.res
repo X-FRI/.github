@@ -16,17 +16,17 @@ let navLinks = [
   {
     "id": "主页",
     "title": "主页",
-    "link": "#",
+    "link": "#home",
   },
   {
     "id": "开源",
     "title": "开源",
-    "link": "#opensource",
+    "link": "#hostings",
   },
   {
     "id": "作品",
     "title": "作品",
-    "link": "#works",
+    "link": "https://github.com/orgs/X-FRI/repositories",
   },
   {
     "id": "社区",
@@ -174,24 +174,28 @@ let socialMedia = [
     "id": "social-media-2",
     "icon": zhihu,
     "link": "https://www.zhihu.com/people/han-lao-shi-4-30",
-  }
+  },
 ]
 
 let clients = [
   {
     "id": "client-1",
     "logo": qq,
+    "link": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=SCyr8uLmu34CsYt4ck3PZ43qPveYrTmw&authKey=ipmSV3LbIm%2BrerjtBgHEL5E1hldGRyIDCkP6jeHpYq3SaXRtFzrMDHBRJhQKpaQ8&noverify=0&group_code=780653172",
   },
   {
     "id": "client-3",
     "logo": wecom,
+    "link": "#community",
   },
   {
     "id": "client-4",
     "logo": email,
+    "link": "mailto:xfri@groups.outlook.com",
   },
   {
     "id": "client-2",
     "logo": matrix,
+    "link": "https://matrix.to/#/!rpzCLjdfFrqZAULJJV:matrix.org",
   },
 ]

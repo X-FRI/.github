@@ -19,7 +19,7 @@ let menu = mobile => {
       className={`${end_menu_item_margin(
           index,
         )} font-normal cursor-pointer text-[16px] text-white`}>
-      <a href={`${nav["id"]}`}> {nav["title"]->React.string} </a>
+      <a href={`${nav["link"]}`}> {nav["title"]->React.string} </a>
     </li>
   })->React.array
 }

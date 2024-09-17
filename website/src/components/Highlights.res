@@ -24,7 +24,7 @@ module FeatureCard = {
 
 @react.component
 let make = () => {
-  <section className=`${layout["section"]}`>
+  <section className={`${layout["section"]}`}>
     <div className={`${layout["sectionInfo"]}`}>
       <h3 className={`${styles["heading3"]}`}>
         {"在与你有相同爱好的人群中，"->React.string}
@@ -32,7 +32,7 @@ let make = () => {
         {"进一步寻找你需要的技术栈。"->React.string}
       </h3>
       <p className={`${styles["paragraph"]} max-w-[470px] mt-5`}>
-        {"我们不带偏见地看待各种技术，OCaml、F#、Rescript、C++、Rust、Golang、Scala、Java、Kotlin、Clojure、JavaScript、TypeScript、Python...（排名不分先后）"->React.string}
+        {"我们不带偏见地看待各种技术，社区成员使用 OCaml、F#、Rescript、C++、Rust、Golang、Scala、Java、Kotlin、Clojure、JavaScript、TypeScript、Python（排名不分先后）等数十种语言及其框架。"->React.string}
       </p>
       <Button styles="mt-10" />
     </div>
