@@ -4,9 +4,9 @@
 
 # The X-Files Research Institute
 
-*A purely open source organization that aims to explore the fields of computer science and open source.*
+*An open source collaborative organization that grows together*
 
-## Here we use various technologies without bias
+## We explore and use any interesting techniques
 __In no particular order__
 
 <img src="/images/colour-icon.png" height="30px">
@@ -25,11 +25,10 @@ __In no particular order__
 </div>
 
 ### Community
-- Matrix (en): https://matrix.to/#/#x-fri:matrix.org
-  - or Space(en & zh): https://matrix.to/#/!rpzCLjdfFrqZAULJJV:matrix.org
-- Discord (en & zh): https://discord.gg/QfbfZFv5
-- QQ Group(zh): 780653172
-- Slack: https://join.slack.com/t/x-fri/shared_invite/zt-2pwuhhx9j-popaILsSw7fZ2I0IjTKHtw
+- Maling List: [xfri@groups.outlook.com](mailto:xfri@groups.outlook.com)]
+  - Send an email with the content "Subscribe" to join.
+
+- QQ Group: 780653172
 
 ## Other
 
