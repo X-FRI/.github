@@ -25,8 +25,6 @@ __In no particular order__
 </div>
 
 ### Community
-- Maling List: [xfri@groups.outlook.com](mailto:xfri@groups.outlook.com)]
-  - Send an email with the content "Subscribe" to join.
 
 - QQ Group: 780653172
 
