@@ -23,13 +23,3 @@ __In no particular order__
 <img src="/images/Python-logo-notext.svg.png" height="30px">
 
 </div>
-
-### Community
-
-- QQ Group: 780653172
-
-## Other
-
-- [Github Actions demo](/actions)
-- [Code Style](/codestyle)
-- [The X-Files Research Institute Theme Pack](https://github.com/X-FRI/xfri-theme)
